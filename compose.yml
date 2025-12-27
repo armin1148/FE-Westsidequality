@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: ${CONTAINER_NAME:-fe-dashboard}
+
+    ports:
+      - "${APP_PORT:-3000}:3000"
+
+    env_file:
+      - .env.production
+
+    restart: always

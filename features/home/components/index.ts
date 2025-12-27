@@ -1,0 +1,9 @@
+export { default as ContactUs } from "./contact-us";
+export { default as CaseStudy } from "./case-study";
+export { default as Expertise } from "./expertise";
+export { default as FAQ } from "./faq";
+export { default as TrustedBy } from "./trusted-by";
+export { default as Services } from "./services";
+export { default as TechStack } from "./tech-stack";
+export { default as AboutUs } from "./about-us";
+export { default as MainSlide } from "./main-slide";
